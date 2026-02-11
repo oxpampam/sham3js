@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "No data? No problem! Generate massive amounts of fake web3 data for testing and development.",
   "author": "oxpampam",
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oxpampam/sham3js"
+  },
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
