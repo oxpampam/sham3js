@@ -1,0 +1,41 @@
+{
+  "name": "sham3js",
+  "version": "0.1.0",
+  "description": "No data? No problem! Generate massive amounts of fake web3 data for testing and development.",
+  "author": "oxpampam",
+  "repository": {},
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "bin": {
+    "sham3": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "web3", "faker", "blockchain", "ethereum", "solana", "nft", "defi",
+    "dao", "mock", "testing", "fake-data", "evm", "dex", "token", "wallet"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0"
+  }
+}
