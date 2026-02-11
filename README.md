@@ -1,7 +1,7 @@
 # sham3js
 
-> Generate massive amounts of fake web3 data for testing and development.  
-> **The [faker.js](https://fakerjs.dev) for blockchain.**
+> No data? No problem! Generate massive amounts of fake web3 data for testing and development.  
+
 
 [![npm](https://img.shields.io/npm/v/sham3js)](https://www.npmjs.com/package/sham3js)
 [![TypeScript](https://img.shields.io/badge/TypeScript-first-blue)](https://www.typescriptlang.org/)
